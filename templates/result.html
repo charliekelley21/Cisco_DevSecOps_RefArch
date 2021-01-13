@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block page_header %}<h1>Virginia Tech Results</h1>{% endblock %}
+
+{% block content %}
+  {% for result in results %}
+    <li>{{result}}</li>
+  {% endfor %}
+{% endblock %}

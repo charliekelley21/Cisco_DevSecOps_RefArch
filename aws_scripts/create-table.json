@@ -1,0 +1,15 @@
+{
+    "TableName": "HokieFootball",
+    "KeySchema": [
+      { "AttributeName": "Opponent", "KeyType": "HASH" },
+      { "AttributeName": "Score", "KeyType": "RANGE" }
+    ],
+    "AttributeDefinitions": [
+      { "AttributeName": "Opponent", "AttributeType": "S" },
+      { "AttributeName": "Score", "AttributeType": "S" }
+    ],
+    "ProvisionedThroughput": {
+      "ReadCapacityUnits": 5,
+      "WriteCapacityUnits": 5
+    }
+}

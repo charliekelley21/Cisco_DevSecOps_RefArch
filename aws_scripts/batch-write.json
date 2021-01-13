@@ -1,0 +1,77 @@
+{
+  "HokieFootball": [
+    {
+      "PutRequest": {
+        "Item":
+        {
+          "Opponent": {
+            "S": "Duke"
+          },
+          "Score": {
+            "S": "W 38-31"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Opponent": {
+            "S": "UNC"
+          },
+          "Score": {
+            "S": "L 45-56"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item" : {
+          "Opponent": {
+            "S": "Boston College"
+          },
+          "Score": {
+            "S": "W 40-14"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item" : {
+          "Opponent": {
+            "S": "Wake Forest"
+          },
+          "Score": {
+            "S": "L 16-23"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item" : {
+          "Opponent": {
+            "S": "Louisville"
+          },
+          "Score": {
+            "S": "W 42-35"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item" : {
+          "Opponent": {
+            "S": "Liberty"
+          },
+          "Score": {
+            "S": "L 35-38"
+          }
+        }
+      }
+    }
+  ]
+}

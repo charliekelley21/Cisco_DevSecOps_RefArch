@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block page_header %}<h1>Virginia Tech Games</h1>{% endblock %}
+
+{% block content %}
+  {% for game in games %}
+    <li>{{game}}</li>
+  {% endfor %}
+{% endblock %}
